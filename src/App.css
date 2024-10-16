@@ -13,26 +13,51 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
 }
+.todowrapper{
+  background-color: #1e065a;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  padding:0.75rem;
+  border-radius: 3px;
+  margin-bottom:1rem;
+  cursor:pointer;
+  margin-bottom: 1.5rem;
+  width:510px;
+  margin:10px auto;
+
+}
+
+.Todoform{
+  background: hsl(257, 67%, 65%);
+  padding:1.5rem 1.0rem;
+  width:500px;
+  margin:0 auto;
+  text-align: center;
+}
+.todo-input{
+  padding:0.5rem;
+  /* width:30%; */
+  border:1px solid ;
+  /* border-radius: 5px; */
+  background-color: inherit;
+  color:white;
+  
+}
+
+.todo-btn{
+background: #1e065a;
+padding:0.5rem;
+/* border-radius:5px; */
+border:none;
+color:white;
 }
